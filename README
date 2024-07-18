@@ -1,0 +1,19 @@
+# Docker Sample App
+
+This is a simple Flask application that runs in a Docker container. It provides a fun fortune-telling feature.
+
+## How to run
+
+1. Pull the image:
+    ```
+    docker pull pqrpqr/docker-sample-app:latest
+    ```
+
+2. Run the container:
+    ```
+    docker run -p 5000:5000 pqrpqr/docker-sample-app:latest
+    ```
+
+3. Access the application at `http://localhost:5000`
+
+Enjoy your fortune!
